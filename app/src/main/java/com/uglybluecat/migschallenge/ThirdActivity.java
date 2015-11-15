@@ -15,7 +15,7 @@ public class ThirdActivity extends AppCompatActivity {
     }
 
     public void showToast (View view) {
-        Toast.makeText(getApplicationContext(), "this is my Toast message!!! =)",
+        Toast.makeText(getApplicationContext(), FirstActivity.message,
                 Toast.LENGTH_LONG).show();
     }
 
