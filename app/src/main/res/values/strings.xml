@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">MigsChallenge</string>
     <string name="edit_message">Enter a Message</string>
-    <string name="button_send">Send</string>
+    <string name="button_next">Next</string>
+    <string name="button_close">Close</string>
+    <string name="button_alert">Alert</string>
+    <string name="title_activity_second">SecondActivity</string>
 </resources>

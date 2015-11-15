@@ -7,7 +7,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_next"
-        android:onClick="openNextActivity"/>
+        android:text="@string/button_alert"
+        android:onClick="showToast"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_close"
+        android:onClick="closeApp"/>
 
 </LinearLayout>
