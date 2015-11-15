@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class ThirdActivity extends AppCompatActivity {
 
@@ -14,6 +15,8 @@ public class ThirdActivity extends AppCompatActivity {
     }
 
     public void showToast (View view) {
+        Toast.makeText(getApplicationContext(), "this is my Toast message!!! =)",
+                Toast.LENGTH_LONG).show();
     }
 
     public void closeApp (View view) {
